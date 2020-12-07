@@ -24,15 +24,6 @@ class _PriceScreenState extends State<PriceScreen> {
     );
   }
 
-  List<Text> getPickerItems() {
-    List<Text> pickerItems = [];
-
-    for (String currency in currenciesList) {
-      pickerItems.add(Text(currency));
-    }
-    return pickerItems;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
